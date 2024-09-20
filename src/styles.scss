@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("styles/flex.css");
+@import url("styles/size.css");
+
+
+
+
+
+body { 
+    font-family: 'Roboto', 'Open Sans', 'Lato', Arial, sans-serif; /* Les polices de secours sont fournies au cas où la première n'est pas disponible */
+    font-size: 16px; /* Taille de police par défaut */
+    line-height: 1.6; /* Espacement entre les lignes pour améliorer la lisibilité */
+    margin: 0;
+    padding: 0;
+}

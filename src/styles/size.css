@@ -1,0 +1,16 @@
+.toolbar-small{
+    height : 32px !important;
+}
+
+.toolbar-medium{
+    height : 64px  !important;
+}
+
+.toolbar-tall{
+    height : 96px  !important;
+}
+
+.content-height{
+    height:  100%;
+    
+}

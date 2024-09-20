@@ -1,0 +1,131 @@
+/* Axe et ordre de l'objet */
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Positionnement dans l'axe principal */
+.start{
+    justify-content: start;
+}
+.center{
+    justify-content: center;
+}
+.end{
+    justify-content: end;
+}
+.space-between{
+    justify-content: space-between!important;
+}
+.space-around{
+    justify-content: space-around!important;
+}
+.space-evenly{
+    justify-content: space-evenly!important;
+}
+
+/* Positionnement dans l'axe transversal */
+/* Attention ne pas définir de taille pour les items */
+.align-start{
+    align-items: start;
+}
+.align-center{
+    align-items: center;
+}
+.align-end{
+    align-items: end;
+}
+.align-stretch{
+    align-items: stretch;
+}
+
+/* Alignement indépendant */
+
+.self-start{
+    align-self: start;
+}
+.self-center{
+    align-self: center;
+}
+.self-end{
+    align-self: end;
+}
+.self-stretch{
+    align-self: stretch;
+}
+
+/* Possibilité d'aller a la ligne */
+
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.wrap-center{
+    align-content: center;
+}
+.wrap-start{
+    align-content: start;
+}
+.wrap-end{
+    align-content: end;
+}
+
+/* Espace entre éléments */
+
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-10{
+    gap : 10px;
+}
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.gap-2p {
+    gap: 2%;
+}
+
+.gap-5p{
+    gap : 5%;
+}
+.gap-10p {
+    gap: 10%;
+}
+
+/* Elargissement */
+
+.grow-1{
+    flex-grow: 1;
+}
+.grow-2{
+    flex-grow: 2;
+}
