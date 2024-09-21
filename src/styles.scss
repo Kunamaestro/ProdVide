@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url("styles/m3-theme.scss");
 @import url("styles/flex.css");
 @import url("styles/size.css");
+@import url("styles/angular_material_selector.scss");
 
 
 
@@ -13,4 +15,6 @@ body {
     line-height: 1.6; /* Espacement entre les lignes pour améliorer la lisibilité */
     margin: 0;
     padding: 0;
+    
 }
+

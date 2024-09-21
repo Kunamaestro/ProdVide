@@ -1,0 +1,27 @@
+
+body {
+    --primary: #046e8f;
+    --primary-light: #dce3e9;
+    --ripple: #005cbb1e;
+    --primary-dark: #003754;
+    --background: #fbfcfe;
+    --error: #ba1a1a;
+    --success: #4caf50;
+    --warning: #ff9800;
+    --info: #2196f3;
+    --text-primary: #212121;
+    --text-secondary: #757575;
+    --divider: #e0e0e0;
+    --border-radius: 4px;
+    background-color: white;
+    
+    
+    
+    //////// Toolbar ///////
+    
+    --mat-toolbar-container-text-color: var(--primary-light);
+    --mat-toolbar-container-background-color: var(--primary);
+    --mdc-icon-button-icon-color: var(--primary);
+
+
+}
